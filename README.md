@@ -9,13 +9,19 @@ Some fun facts about me:
 My goals are to learn a lot and to complete all the assignments (harder than it sounds) :D
 
 I'm also president of a dance team here on campus!
+
 [My dance team's instagram](https://www.instagram.com/mitmochamoves/)
 
 Here is a picture of artwork in my room!
+
 ![poppies](assets/la-poire-poppies-cornflower.jpeg)
 
 # Table of Contents
+
 [Link to Assignment 1](assignments/assignment1.md)
+
 [Link to Problem Set 1](assignments/problemset1.md)
+
 [Link to Problem Set 2](assignments/problemset2.md)
+
 [Link to Assignment 2](assignments/assignment2.md)
