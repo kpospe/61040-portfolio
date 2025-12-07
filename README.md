@@ -25,3 +25,5 @@ Here is a picture of artwork in my room!
 [Link to Problem Set 2](assignments/problemset2.md)
 
 [Link to Assignment 2](assignments/assignment2.md)
+
+[Link to Assignment 3](assignments/assignment3.md)
