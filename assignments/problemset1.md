@@ -92,7 +92,7 @@ a set of Registries with
 **(revised) actions**
 
 ```text
-setVisibility(registry, flag: Boolean)
+setVisibility (registry, flag: Boolean)
   requires registry exists
   effects  registry.visibilityFlag := flag
 ```
@@ -138,7 +138,7 @@ a set of Users with
 **actions**
 
 ```text
-register(username: String, password: String): (user: User)
+register (username: String, password: String): (user: User)
   requires no user with this username exists
   effects create new user with:
           user.username = username
@@ -184,7 +184,7 @@ a set of Users with
 **revised actions**
 
 ```text
-register(username: String, password: String): (user: User, token: String)
+register (username: String, password: String): (user: User, token: String)
   requires no user with this username exists
   effects  create new user with:
            user.username = username
@@ -228,7 +228,7 @@ confirm(username: String, token: String)
 **principle**
   a user generates one or more tokens linked to their account;
   each token is an opaque string that can be presented instead of a password;
-  tokens can be individually revoked without affecting the user’s password;
+  tokens can be individually revoked without affecting the user’s password
 
 **state**
 
@@ -241,7 +241,7 @@ a set of Users with
 **actions**
 
 ```text
-createToken(user: User): (token: Token)
+createToken (user: User): (token: Token)
   effects generate new token,
           add token to user's token set,
           return token
@@ -292,9 +292,9 @@ This framing (“tokens are like keys for different tools you can revoke at any 
 **purpose** provide short, human-friendly identifiers that can be used to direct to longer URLs
 
 **principle**
-  a user submits a long URL
-  system creates a short suffix (or uses user-provided suffix if unique),
-  visiting the short URL redirects to the long one,
+  a user submits a long URL;
+  system creates a short suffix (or uses user-provided suffix if unique);
+  visiting the short URL redirects to the long one;
   creators can later delete a mapping, allowing the suffix to be reused
 
 **state**
@@ -309,7 +309,7 @@ a set of Mappings with
 **actions**
 
 ```text
-shorten(longURL: String): (suffix: String)
+shorten (longURL: String): (suffix: String)
   effects generate unused suffix,
           create and store mapping,
           return suffix
@@ -350,8 +350,8 @@ deleteMapping(owner: User, suffix: String)
 **purpose** record and organize time spent on client projects so it can be accurately aggregated for invoicing, payroll, and reporting
 
 **principle**
-  an employee starts a work session,
-  when they finish, the system logs the session duration,
+  an employee starts a work session;
+  when they finish, the system logs the session duration;
   forgotten sessions can be detected and corrected to reflect actual work
 
 **state**
@@ -368,7 +368,7 @@ a set of Sessions with
 **actions**
 
 ```text
-startSession(employee: Employee, project: Project, desc: String): (session: Session)
+startSession (employee: Employee, project: Project, desc: String): (session: Session)
   effects create session with the employee, project, and desc,
           set session.startTime = now
           set session.endTime = null
@@ -408,8 +408,8 @@ autoClose(session: Session, time: Timestamp)
 **purpose** allocate shared rooms fairly without scheduling conflicts
 
 **principle**
-  a user selects a room, date, and time interval
-  if interval doesn't overlap existing reservations for that room, the system reserves it; otherwise the request is denied
+  a user selects a room, date, and time interval;
+  if interval doesn't overlap existing reservations for that room, the system reserves it, otherwise the request is denied;
   users can cancel reservations and view schedules
 
 **state**
@@ -429,7 +429,7 @@ a set of Reservations with
 **actions**
 
 ```text
-book(user: User, room: RoomID, start: Timestamp, end: Timestamp): (res: Reservation)
+book (user: User, room: RoomID, start: Timestamp, end: Timestamp): (res: Reservation)
   requires room and user exist,
            start < end,
            interval does not overlap existing reservations for the room
@@ -439,13 +439,13 @@ book(user: User, room: RoomID, start: Timestamp, end: Timestamp): (res: Reservat
 ```
 
 ```text
-cancel(res: Reservation)
+cancel (res: Reservation)
   requires res exists
   effects remove res from it's room's reservations
 ```
 
 ```text
-listReservations(room: RoomID): (set of Reservations)
+listReservations (room: RoomID): (set of Reservations)
   requires room exists
   effects  no state change,
            return the room's reservations
