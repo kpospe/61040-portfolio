@@ -2,185 +2,309 @@
 
 ## Domains
 
-1. Dance team management and coordination
+### List of 10 Domains
 
-2. Student productivity habits
+1. Team scheduling and coordination
 
-3. Watching and selecting movies
+2. Student and professional productivity habits  
 
-4. Food and meal planning
+3. Watching and selecting movies & TV for groups
 
-5. Room layout/organization
+4. Food and meal planning  
 
-6. Getting involved in campus events
+5. Room layouts and organization
 
-7. Studying effectively/Productivity habits
+6. Getting involved in community events  
 
-8. Social connection and maintaining friendships
+7. Family logistics and caregiving 
 
-9. Academic projects and GIT organization
+8. Social connection and maintaining friendships over distance  
 
-10. Sleep and late-night phone use
+9. Collaborative work and Git/Version control organization  
 
-## Three Expanded Domains
+10. Sleep and late-night phone use for digital wellbeing
 
-### 1. Team management and coordination
+---
 
-I’ve been both captain and treasurer of my college dance team, Mocha Moves. Coordinating rehearsals, handling finances, and keeping track of shows takes a lot of time and organization. I know firsthand how messy communication and logistics can get in student-run organizations, so this feels like fertile ground for a project.
+### 3 Expanded Domains
 
-### 2. Watching and selecting movies
+#### 1. Team scheduling and coordination
 
-I’m part of MIT’s Lecture Series Committee (LSC), which screens movies for the student body. Even outside of that, I often find myself or my friends struggling to pick movies to watch together. The process can be time-consuming and unsatisfying. This domain combines a personal hobby with my club experience, while being applicable to a large demographic.
+I’ve been both captain and treasurer of my college dance team, Mocha Moves.
+All the time, but especially during IAP when we prepare for our winter show, the biggest challenges are scheduling, organization, and communication.
+I've noticed these issues in many organized groups like run clubs, theater troupes, sports teams, and more.
+This feels like fertile ground for a project because a small improvement in coordination tools can have an huge impact on people’s time and stress.
 
-### 3. Studying effectively/Productivity habits
+#### 2. Watching and selecting movies & TV for groups
 
-Balancing classes, extracurriculars, and personal time is always a challenge. I use incentives to motivate myself, but I still find it hard to keep track of commitments and stay consistent. Tools exist, but they often feel too rigid or don’t address how motivation and scheduling connect.
+I’m part of MIT’s Lecture Series Committee (LSC), which screens movies for the student body.
+Even outside of that, I often find myself, my friends, and my family struggling to pick movies to watch together due to our differing tastes and watch histories.
+This domain combines a personal hobby with my club experience, while being applicable to a large demographic.
+
+#### 3. Studying effectively/Productivity habits
+
+I was diagnosed with ADHD this semester, which helped me realize how much I struggle to balance classes, extracurriculars, and personal time.
+I try to use incentives to motivate myself, but I still find it hard to keep track of commitments and stay consistent.Tools exist, but they often feel too rigid or don’t address how motivation and scheduling connect.
+This topic is important to me and I'd benefit a lot from developing it further.
+
+---
+
+---
 
 ## Problems in these domains
 
 ### Domain 1: Team management/scheduling
 
-* Rehearsal scheduling conflicts
+1.1 - Meeting scheduling conflicts
 
-* Tracking finances and reimbursements
+1.2 - Tracking finances and reimbursements  
 
-* Sharing choreography and performance notes
+1.3 - Sharing choreography, performance notes, or playbooks
 
 ### Domain 2: Watching and selecting movies
 
-* Wasting time scrolling for something to watch
+2.1 - Wasting time scrolling or debating what to watch
 
-* Coordinating with friends on what to watch
+2.2 - Coordinating with friends or family on what to watch
 
-* Forgetting movies you’ve heard of but haven’t seen
+2.3 - Forgetting movies or shows you heard about but never watched
 
-### Domain 3: Student productivity/studying
+### Domain 3: Studying effectively/Productivity habits
 
-* Overcommitting and missing deadlines
+3.1 - Overcommitting and missing deadlines
 
-* Staying motivated to complete tasks
+3.2 - Staying motivated to complete tasks
 
-* Balancing academic work with extracurriculars
+3.3 - Balancing work with rest and extracurriculars
 
-## Three Selected Problems
+---
 
-1. Rehearsal scheduling conflicts
+### 3 Selected Problems
 
-Dance teams like mine struggle to find practice times that work for everyone, especially when members have different class schedules and commitments. Current solutions like Google Calendar polls are clunky and often ignored. I selected this because I’ve seen how much frustration and wasted time this causes.
+- **Meeting scheduling conflicts**
 
-2. Wasting time scrolling for something to watch
-On average, people spend hours per week just browsing streaming platforms. I often end up watching something mediocre because of indecision. I chose this because the problem is widespread and highly relatable, and solutions (like Netflix recommendations) often miss the mark.
+Performance and professional teams alike struggle to find meeting times that work for the right subset of people, especially when members have different schedules and roles. Sometimes you need specific roles present (e.g. team leaders).
 
-3. Staying motivated to complete tasks
-Students often know what they need to do but struggle to stay consistent. I personally rely on reward systems, and I know many peers do similar things informally. I picked this because it combines productivity with psychology, which could lead to creative features.
+Other times you just need a minimum number of people.
+Current solutions like when2meet or shared Google Calendar are clunky, get ignored, and don’t handle these nuanced constraints.
 
-## Excluded Problems (with reasons)
+I selected this problem because I’ve seen how much frustration and wasted time it causes, and because it generalizes to many group contexts beyond my own team.
 
-### Team related
+- **Wasting time scrolling for something to watch**
 
-Dance team: Tracking finances and reimbursements → Too niche; existing spreadsheet/finance tools are already strong enough.
+On average, people spend hours per week browsing streaming platforms or debating in group chats before settling on something to watch.
+Often, the choice takes forever and is unsatisfactory.
 
-Dance team: Sharing choreography and performance notes → Hard to innovate meaningfully without just being a file-sharing app. Most upgrades I imagine are way out of my skillset.
+The problem is amplified when watching with others: everyone has different tastes and subscriptions, and most recommendation systems are tuned for individuals, not groups.
 
-### Movie related
-Movies: Coordinating with friends on what to watch → Slightly more narrow than the “finding movies” issue, which already covers this indirectly.
+I chose this problem because it is widespread, affects families and friend groups of all ages, and sits at the intersection of discovery, preference modeling, and group decision-making.
 
-Movies: Forgetting movies you’ve heard of → Already solved decently by apps like Letterboxd, which has a lot of features on its own.
+- **Staying motivated to complete tasks**
 
-### Scheduling related
+Students and professionals often know what they need to do but struggle to stay consistent.
+People try personal reward systems or accountability systems with friends, but these are usually informal and fragile
+Existing apps help track tasks or habits but rarely adapt to changing motivation or priorities.
 
-Scheduling: Overcommitting and missing deadlines → Feels too broad and overlaps with general time management. I think any improvement ultimately is up to the person to internalize and can't really be fixed with an app.
+I picked this problem because it combines productivity with psychology, which opens the door to more flexible, personalized support instead of a one-size-fits-all checklist.
 
-Scheduling: Balancing academic work with extracurriculars → Very context-specific; solutions would likely be too generic or require non-software intervention. Many apps already exist and I would not be innovating but just shuffling features that are out there.
+---
 
-## Stakeholders
+### 6 Excluded Problems
 
-### Problem 1: Team Scheduling conflicts
+- **Tracking finances and reimbursements**
 
-Team members — dancers (or other team members) with busy schedules
+This problem may be too niche or specific to different institutions.
+Existing tools (spreadsheets, budgeting apps, Venmo notes) are already strong enough and customizable for this task.
+The space is important but less aligned with my interest in coordination and time.
 
-Team leaders — captains/executives who manage logistics
+- **Sharing choreography and performance notes**
 
-Event organizers — people who depend on teams showing up prepared
+Many existing tools (Google Drive, Notion, video platforms) already support file sharing and annotation.
+Meaningfully innovating here without just rebuilding a storage system feels out of scope for this course (and for me lol).
 
-Impact: Team members suffer stress from constant rescheduling. Leaders waste time managing logistics. Event organizers risk poor-quality performances if practice is inconsistent.
+- **Coordinating with friends on what to watch**
 
-### Problem 2: Wasting time scrolling for something to watch
+This overlaps heavily with the broader “finding something to watch” problem.
+If I solve group discovery and decision-making, coordination becomes part of that solution rather than a separate problem.
 
-Viewer (selector) — person leading the decision
+- **Forgetting movies you’ve heard of**
 
-Friends/partners — others watching together
+Apps like Letterboxd already do a good job of letting you track watchlists.
+The main pain I’m interested in is not remembering titles, but deciding among them as a group.
 
-Streaming platforms — companies that want users engaged
+- **Overcommitting and missing deadlines**
 
-Impact: Viewers and friends lose time and enjoyment. Platforms may benefit from longer browsing, but risk frustrating users.
+This feels too broad.
+While it's easy to see how overcommitting can lead to missing deadlines but missing deadlines is too general to be specifically combatted.
+
+- **Balancing academic/work responsibilities with extracurriculars**
+
+I’d rather focus on a narrower, more actionable part of the problem.
+
+Many apps already exist for this type of thing and I would not be innovating but just shuffling features that are out there.
+(This is in contrast to my chosen problem, which would dive more into philosophy rather than just being a calendar/notes/reminder app.)
+
+---
+
+---
+
+## Stakeholders for these problems
+
+### Chosen Problem 1: Team Scheduling conflicts
+
+- **Team members:** those who regularly attend but do not manage logistics
+
+- **Team leaders:** those with greater responsibility facilitating group operations (e.g. executives, managers)
+
+- **Event or space schedulers:** or those that interface with a group and relies on their efficiency (e.g. studio managers, campus staff)
+
+**Impact:**
+
+Team members are affected by constant rescheduling and unclear polls, which create frustration and make commitments harder to manage;
+they want a simple, low-effort way to give availability.
+
+Team leaders are heavily impacted because mismatched schedules and slow responses create delays and administrative burden;
+they need fast quorum-finding tools that respect role and headcount requirements.
+
+Event or space schedulers are disrupted by last-minute changes and unclear booking requests, and they benefit when teams can confirm times earlier and more reliably.
+
+---
+
+### Chosen Problem 2: Wasting time scrolling for something to watch
+
+- **Decision-Makers/Hosts:** the person initiating the selection
+
+- **Co-watchers:** those watching but not hosting
+
+- **Streaming Platforms & Content Providers:** those whose content the group consumes
+
+**Impact:**
+
+Hosts feel social pressure to pick something “good” and lose time navigating indecision;
+they want quicker, preference-aligned suggestions.
+
+Co-watchers become disengaged when discussions drag on and want their preferences incorporated without extended debates.
+
+Streaming platforms risk user dissatisfaction or churn when browsing becomes too long, so they benefit from tools that speed up selection and maintain positive engagement.
+
+---
 
 ### Problem 3: Staying motivated to complete tasks
 
-Students — primary users seeking productivity help
+- **Unmotivated Person:** primary users seeking productivity help
 
-Professors/teaching staff — affected by late or incomplete work
+- **Bosses, Managers, Collaborators:** those who depend on timely, consistent output from the user
 
-Peers/team members — impacted when group work lags
-Impact: Students lose consistency, professors see reduced performance, peers suffer from uneven contributions.
+- **Peers and Teammates:** group members affected by shared project delays
+
+**Impact:**
+
+Unmotivated users experience stress, missed deadlines, and inconsistent habits; they want tools that adapt to their motivational style and help sustain momentum.
+
+Managers, professors, and collaborators are affected when deadlines slip or progress becomes unpredictable, and they benefit from more reliable follow-through.
+
+Peers in group work are impacted when one person’s procrastination stalls collective progress, and they want clearer accountability and steadier contributions.
+
+---
+
+---
 
 ## Evidence & Comparables
 
-### Problem 1: Team scheduling conflicts
+### Selected Problem 1: Team scheduling conflicts
 
-* While direct statistics on dance team scheduling are scarce, widespread issues with group scheduling are well documented. For instance, group scheduling apps like Clockwise arise in response to the common challenge of "finding available white space across calendars" among busy participants. [Clockwise](https://www.getclockwise.com/blog/group-scheduling-apps-lineup?utm_source=chatgpt.com)
+- Students increasingly over-schedule every aspect of their lives suggests that scheduling complexity is a real and pervasive pain point. [The Wall Street Journal](https://www.wsj.com/lifestyle/college-students-schedule-google-calendar-e2a3d796?), [New York Post](https://nypost.com/2025/08/14/lifestyle/college-kids-are-using-google-calendar-to-schedule-hookups/?)
 
-* Students increasingly over-schedule every aspect of their lives—boarded by Google Calendar for academics, social hangouts, and even dates—suggests that scheduling complexity is a real and pervasive pain point.[The Wall Street Journal](https://www.wsj.com/lifestyle/college-students-schedule-google-calendar-e2a3d796?utm_source=chatgpt.com),[New York Post](https://nypost.com/2025/08/14/lifestyle/college-kids-are-using-google-calendar-to-schedule-hookups/?utm_source=chatgpt.com)
+- While direct statistics on team scheduling are scarce, widespread issues with group scheduling are well documented. Group scheduling apps like [Clockwise](https://www.getclockwise.com/blog/group-scheduling-apps-lineup?) and Doodle exist specifically because “finding available white space across calendars” among busy participants is a persistent pain point.
 
-* Broader user-experience research highlights that fragmented calendars cause "calendar creep" and stress—especially in contexts where syncing and coordination are inadequately supported. (Derived from news narratives above.)
+- Reports on “hyper-scheduling” among students and professionals show that calendars are used for almost every aspect of life, from classes and meetings to social events and even personal time. This increases the complexity of finding overlapping free time for groups.
 
-* Existing tools: Doodle, When2Meet → comparables, but lack integration with group-specific needs.[Doodle](https://doodle.com/en/), [when2meet](https://www.when2meet.com/}
+**Comparables and limitations:**
 
+  - **[Doodle](https://doodle.com/en/) / [When2Meet](https://www.when2meet.com/)**
+  
+  Great at collecting availability and visualizing overlaps, but they usually assume you’re aiming for “everyone who was invited” or a simple majority.
+  They do not support richer constraints like “must include these specific roles” or “at least N members of a subgroup,” so leaders still have to reason manually about which combinations are acceptable.
+
+  - **Shared calendars ([Google Calendar](https://workspace.google.com/intl/en-US/products/calendar/), [Outlook](https://outlook.live.com/mail/))**
+  
+  Work well when everyone shares their calendar and is within the same organization, but teams and community groups often span different domains and privacy preferences.
+  They also don’t natively support poll-style selection or quorum logic.
+
+---
 
 ### Problem 2: Wasting time scrolling for something to watch
 
-* A survey of 2,000 American streaming subscribers found that on average, people waste 110 hours per year—nearly five full days—just browsing streaming services trying to find something to watch. [Streaming Media Magazine](https://www.streamingmedia.com/Articles/News/Online-Video-News/Lost-in-the-Stream-Survey-Finds-Americans-Waste-Nearly-Five-Days-a-Year-Just-Deciding-What-to-Watch-167376.aspx?utm_source=chatgpt.com), [Business Wire](https://www.businesswire.com/news/home/20241218932475/en/Lost-in-the-Stream-Survey-Finds-Americans-Waste-Nearly-Five-Days-a-Year-Just-Deciding-What-to-Watch?utm_source=chatgpt.com)
+- A survey of 2,000 American streaming subscribers found that on average, people waste 110 hours per year—nearly five full days—just browsing streaming services trying to find something to watch. [Streaming Media Magazine](https://www.streamingmedia.com/Articles/News/Online-Video-News/Lost-in-the-Stream-Survey-Finds-Americans-Waste-Nearly-Five-Days-a-Year-Just-Deciding-What-to-Watch-167376.aspx?), [Business Wire](https://www.businesswire.com/news/home/20241218932475/en/Lost-in-the-Stream-Survey-Finds-Americans-Waste-Nearly-Five-Days-a-Year-Just-Deciding-What-to-Watch?)
 
-* UX design commentary refers to this as “Netflix Syndrome”, where excessive choice leads to decision fatigue, ultimately reducing the time spent actually watching content.[Medium](https://medium.com/%40aryagawade2001/netflix-syndrome-a-ux-ui-case-study-on-the-paradox-of-choice-410a062cc403?utm_source=chatgpt.com), [UX Collective](https://uxdesign.cc/decision-fatigue-and-ux-a-case-study-c3efbb985007?utm_source=chatgpt.com)
+* UX design commentary refers to this as “Netflix Syndrome”, where excessive choice leads to decision fatigue, ultimately reducing the time spent actually watching content. [Medium](https://medium.com/%40aryagawade2001/netflix-syndrome-a-ux-ui-case-study-on-the-paradox-of-choice-410a062cc403?), [UX Collective](https://uxdesign.cc/decision-fatigue-and-ux-a-case-study-c3efbb985007?)
 
-* Journalistic coverage also confirms that “too much content” and bloated libraries make it harder for users to pick something—many feel overwhelmed and frustrated despite algorithmic recommendations. [New York Post](https://nypost.com/2024/12/19/lifestyle/why-its-so-hard-to-find-something-to-watch-lately/?utm_source=chatgpt.com)
+**Comparables and limitations:**
 
-* Comparables: Letterboxd, Reelgood → limitations in personalization/group decision-making. [Letterboxd](https://letterboxd.com/), [Reelgood](https://reelgood.com/)
+  - **[Letterboxd](https://letterboxd.com/)**
+
+  Excellent for logging what you’ve watched, keeping lists, and discovering films through reviews and social features.However, it is primarily oriented around individual cinephiles.
+  It doesn’t offer much tooling for *live* group decision-making.
+
+  - **[Reelgood](https://reelgood.com/)**
+
+  Helps users track where movies and shows are streaming and can aggregate watchlists across platforms.
+  Its strength is in content discovery and availability tracking.
+  But it still assumes a mostly individual user and doesn’t deeply support negotiation between multiple people’s preferences, constraints (e.g., “something under 2 hours we can all agree on”), or real-time group polling.
+
+---
 
 ### Problem 3: Staying motivated to complete tasks
 
-* Academic research indicates 80–95% of college students procrastinate, especially with coursework, making it one of the most prevalent issues in post-secondary education. [APA](https://www.apa.org/gradpsych/2010/01/procrastination?utm_source=chatgpt.com), [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10297372/?utm_source=chatgpt.com), [Edutopia](https://www.edutopia.org/article/3-reasons-students-procrastinate-and-how-help-them-stop/?utm_source=chatgpt.com), [SolvingProcrastination](https://solvingprocrastination.com/procrastination-statistics/?utm_source=chatgpt.com)
+- Academic research and popular summaries agree that a large majority of college students procrastinate on coursework, which is linked to stress, poorer performance, and difficulty achieving long-term goals. [APA](https://www.apa.org/gradpsych/2010/01/procrastination?), [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10297372/?), [Edutopia](https://www.edutopia.org/article/3-reasons-students-procrastinate-and-how-help-them-stop/?), [SolvingProcrastination](https://solvingprocrastination.com/procrastination-statistics/?)
 
-* Long-form summaries (e.g., Wikipedia) note that academic procrastination is “highly prevalent,” with over 70% of students admitting to it, and link it to stress, poorer grades, and mental health challenges. [Wikipedia](https://en.wikipedia.org/wiki/Procrastination?utm_source=chatgpt.com)
+- Many sources emphasize that motivation fluctuates with context (sleep, mental health, workload) and that rigid, one-size-fits-all structures often fail when life gets chaotic. [Wikipedia](https://en.wikipedia.org/wiki/Procrastination?), [Verywell Mind](https://www.verywellmind.com/the-psychology-of-procrastination-2795944?)
 
-* Additional sources underscore that procrastination is tied to performance gaps and self-regulation failures—and can seriously impact academic outcomes. [Verywell Mind](https://www.verywellmind.com/the-psychology-of-procrastination-2795944?utm_source=chatgpt.com)
+**Comparables and limitations:**
 
-* Comparables: Habitica, Todoist → limitations in motivational flexibility. [Habitica](https://habitica.com/static/home), [Todoist](https://www.todoist.com/)
+  - **[Habitica](https://habitica.com/static/home)**
+  
+  Gamifies tasks using RPG-style mechanics (including XP, levels, & parties).
+  This works well for users who are motivated by game themes and consistent habits.
+  However, its reward system is fairly fixed: if you’re not into the fantasy aesthetic, or if your motivation spikes and crashes, the game layer can start to feel like extra work rather than support.
+  It also doesn’t adapt well to changing priorities or energy levels.
+
+  - **[Todoist](https://www.todoist.com/)**
+
+  A powerful, flexible task manager with labels, priorities, and natural-language due dates.
+  It excels at organizing work but assumes the user will supply the motivation.
+  It doesn’t offer built-in, personalized motivation strategies (e.g., dynamic rewards, variable difficulty, or accountability nudges) and generally treats all tasks the same, regardless of how emotionally or cognitively difficult they are.
+
+---
+
+---
 
 ## Features
 
 ### Problem 1: Rehearsal scheduling conflicts
 
-* Smart availability polls — automatically suggest best times using uploaded schedules.
+- **Smart availability polls** - Collect availability and automatically suggest best times using uploaded schedules or quick slot selections.
 
-* Customability - ability to check availability for specific people/groups of people OR a certain NUMBER of people (eg need 6+ dancers).
+- **Role and quota-aware constraints** — Allow leaders to specify that certain individuals or cohorts must be present (e.g., “choreographer + any 6 members of Lifts”) or that a minimum number of participants is required, not necessarily everyone.
 
-* Practice logs — track attendance for accountability and recordkeeping.
+- **Attendance logs** — Track who actually shows up for rehearsals, so teams can see patterns over time and adjust expectations or role assignments.
+
+---
 
 ### Problem 2: Wasting time scrolling for something to watch
 
-* Smart wish list — store movies you hear about and notify when available on streaming services.
+- **Smart shared wishlist** — Let individuals add movies/shows as they hear about them; combine them into group lists that surface only items available across everyone’s streaming services.
 
-* Group quick vote — simple polling tool to decide with friends.
+- **Group quick vote** — Provide simple polls or swipe-style voting to converge on a choice quickly, instead of long message threads.
 
-* Mood-based filter — suggest movies based on short mood prompts (“light comedy,” “intense drama”).
+- **Mood- and constraint-based filters** — Suggest options based on group mood (“light comedy,” “cozy comfort rewatch”), time constraints (“< 2 hours”), and content boundaries.
 
-* Multi-user - friends can all suggest movies for the group in advance and add them to a watchlist
+---
 
 ### Problem 3: Staying motivated to complete tasks
 
-* Custom rewards system — let users assign personal incentives to task completion.
+- **Custom rewards system** — Let users define their own reward structures (e.g., treats, breaks, episodes) and link them to specific tasks or categories.
 
-* Streak tracking — visual reinforcement for consistency.
+- **Adaptive streak and progress tracking** — Use streaks and visual progress indicators, but allow for “planned breaks” and recovery so that one bad week doesn’t destroy long-term progress.
 
-* Peer accountability check-ins — share progress with trusted peers for encouragement.
+- **Peer accountability check-ins** — Enable small accountability groups where people can share goals, quick updates, or “done” checkmarks without needing heavy social features or public feeds.
