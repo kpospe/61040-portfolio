@@ -26,4 +26,8 @@ Here is a picture of artwork in my room!
 
 [Link to Assignment 2](assignments/assignment2.md)
 
-[Link to Assignment 3](assignments/assignment3.md)
+[Link to Assignment 3](https://github.com/kpospe/61040-A3)
+
+[Link to Assignment 4 BackEnd](https://github.com/kpospe/quorum_backend)
+
+[Link to Assignment 4 Frontend](https://github.com/kpospe/quorum_frontend)
